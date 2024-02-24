@@ -1,0 +1,27 @@
+
+  <svg id="container">
+
+  <image id="background" href="bg.png" />
+
+  <text id="myLabel" />
+  <text id="myLabel1"/>
+  
+
+  
+  <image id="battery_img" />
+  
+  <text id="battery" class="label">000</text>
+  
+  
+
+  <image id="heartrate_img" />
+  <text id="heartrate" class="label">00</text>
+  
+  
+  <text id="clock-label-hours" x="41%" y="50%+15"
+  fill="black" font-size="80" font-family="System-Regular"
+  text-anchor="middle">00</text>
+  <text id="clock-label-minutes" x="50%+25" y="45%+5"
+  fill="black" font-size="36">00</text>
+ <text id="myLabel2" class="p2 center-text" text-length="40" />
+ </svg>

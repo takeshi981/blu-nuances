@@ -1,0 +1,67 @@
+svg{
+  viewport-fill: black;
+  
+}
+
+#background {
+  fill: fb-black;
+}
+
+
+
+
+#myLabel {
+  font-size: 60;
+  font-family: System-Bold;
+  text-anchor: middle;
+  fill: black;
+}
+
+#mainText {
+  x: 50%;
+  y: 50%+12;
+  font-size: 75;
+  text-length: 20;
+  text-anchor: middle;
+}
+
+
+#myLabel2 {
+  fill: black;
+  x: 50%;
+  y: 92%;
+  text-transform: uppercase;
+}
+
+#battery{
+  fill: black;
+  font-size: 24;
+  x: 20%;
+  y: 50;
+}
+
+#battery_img {
+  x: 10%;
+  y: 30;
+  width: 24;
+  height: 24;
+  href: "icons/uil--battery-empty.png";
+}
+
+
+
+
+#heartrate{
+  fill: black;
+  font-size: 24;
+  x: 80%;
+  y: 50;
+}
+
+#heartrate_img{
+  x: 70%;
+  y: 30;
+  width: 24;
+  height: 24;
+  href: "icons/uil--heartbeat.png";
+}
