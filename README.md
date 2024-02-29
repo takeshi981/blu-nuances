@@ -5,6 +5,6 @@
 ***
 
 ## Screenshot
-![Screenshot] (https://i.imgur.com/qJ1XeSk.png "Screenshot")
+![Screenshot](https://i.imgur.com/qJ1XeSk.png "Screenshot")
 
 ***
