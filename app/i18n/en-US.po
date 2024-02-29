@@ -1,0 +1,56 @@
+msgid "month0"
+msgstr "Jan"
+
+msgid "month1"
+msgstr "Feb"
+
+msgid "month2"
+msgstr "Mar"
+
+msgid "month3"
+msgstr "Apr"
+
+msgid "month4"
+msgstr "May"
+
+msgid "month5"
+msgstr "Jun"
+
+msgid "month6"
+msgstr "Jul"
+
+msgid "month7"
+msgstr "Aug"
+
+msgid "month8"
+msgstr "Sep"
+
+msgid "month9"
+msgstr "Oct"
+
+msgid "month10"
+msgstr "Nov"
+
+msgid "month11"
+msgstr "Dec"
+
+msgid "day0"
+msgstr "Sun"
+
+msgid "day1"
+msgstr "Mon"
+
+msgid "day2"
+msgstr "Tue"
+
+msgid "day3"
+msgstr "Wed"
+
+msgid "day4"
+msgstr "Thu"
+
+msgid "day5"
+msgstr "Fri"
+
+msgid "day6"
+msgstr "Sat"

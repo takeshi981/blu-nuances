@@ -15,7 +15,7 @@
   
 
   <image id="heartrate_img" />
-  <text id="heartrate" class="label">00</text>
+  <text id="heartrate" class="label">000</text>
   
   
   <text id="clock-label-hours" x="41%" y="50%+15"

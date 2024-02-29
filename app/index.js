@@ -3,6 +3,7 @@ import document from "document";
 import {battery,charger} from "power";
 import { HeartRateSensor } from "heart-rate";
 import {me as appbit} from 'appbit';
+import { gettext } from 'i18n';
 
 
 import { addComma, getDay3, monoDigits, zeroPad } from "../common/utils";
@@ -58,27 +59,27 @@ function updateScene(days , months , dates , years) {
  
   myLabel2.text = " " + daytext + " " + monthtext + " " + dates + " " + years + " ";
 
- if (months == 0){monthtext = "JAN";}
- else if (months == 1){monthtext =  "FEB";}
- else if (months == 2){monthtext =  "MAR";}
- else if (months == 3){monthtext =  "APR";}
- else if (months == 4){monthtext =  "MAY";}
- else if (months == 5){monthtext =  "JUN";}
- else if (months == 6){monthtext =  "JUL";}
- else if (months == 7){monthtext =  "AUG";}
- else if (months == 8){monthtext =  "SEP";}
- else if (months == 9){monthtext =  "OCT";}
- else if (months == 10){monthtext = "NOV";}
- else if (months == 11){monthtext = "DEC";}
+ if (months == 0){monthtext = gettext("month0");}
+ else if (months == 1){monthtext =  gettext("month1");}
+ else if (months == 2){monthtext =  gettext("month2");}
+ else if (months == 3){monthtext =  gettext("month3");}
+ else if (months == 4){monthtext =  gettext("month4");}
+ else if (months == 5){monthtext =  gettext("month5");}
+ else if (months == 6){monthtext =  gettext("month6");}
+ else if (months == 7){monthtext =  gettext("month7");}
+ else if (months == 8){monthtext =  gettext("month8");}
+ else if (months == 9){monthtext =  gettext("month9");}
+ else if (months == 10){monthtext = gettext("month10");}
+ else if (months == 11){monthtext = gettext("month11");}
  else {monthtext = "MONTH";}
    
- if (days == 0){daytext =      "Sunday,";}
- else if (days == 1){daytext = "Monday,";}
- else if (days == 2){daytext = "Tuesday,";}
- else if (days == 3){daytext = "Wednesday,";}
- else if (days == 4){daytext = "Thursday,";}
- else if (days == 5){daytext = "Friday,";}
- else if (days == 6){daytext = "Saturday,";}
+ if (days == 0){daytext =      gettext("day0");}
+ else if (days == 1){daytext = gettext("day1");}
+ else if (days == 2){daytext = gettext("day2");}
+ else if (days == 3){daytext = gettext("day3");}
+ else if (days == 4){daytext = gettext("day4");}
+ else if (days == 5){daytext = gettext("day5");}
+ else if (days == 6){daytext = gettext("day6");}
  else {daytext = "DAY";}
 }
 
